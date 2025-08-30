@@ -56,7 +56,8 @@ Frontend → displays transcription + plays response
 
 ---
 
-📂 Project Structure
+### 📂 Project Structure
+```
 voice-assistant/
 │── main.py           # FastAPI backend entry
 │── config.py         # Configuration & settings
@@ -69,53 +70,47 @@ voice-assistant/
 │── uploads/          # Audio uploads
 │── voice_assistent.png # Project snapshot
 └── README.md
-
+```
 ---
 
-⚡ Getting Started
-1️⃣ Prerequisites
-
-Python 3.8+
-
-pip
-
-API keys for:
-
-AssemblyAI
-
-Google Gemini
-
-Murf.ai
-
----
-
-2️⃣ Installation
+### 2️⃣ Installation
 # Clone repository
+```
 git clone https://github.com/dhiraj-ydv45/Voice-agent
-
+```
+```
 cd Voice-agent
-
+```
 ---
 
 # Install dependencies
+```
 pip install -r requirements.txt
-
+```
 ---
+
 3️⃣ Configure API Keys
 
 Create a .env file in the project root:
 
+```
 MURF_API_KEY="your_murf_api_key"
-
+```
+```
 ASSEMBLYAI_API_KEY="your_assemblyai_api_key"
-
+```
+```
 GEMINI_API_KEY="your_gemini_api_key"
-
+```
+```
 NEWS_API_KEY="your_news_api_key"
-
+```
 ---
-4️⃣ Run the App
+
+### 4️⃣ Run the App
+```
 uvicorn main:app --reload
+```
 ---
 
 👉 Open http://127.0.0.1:8000
